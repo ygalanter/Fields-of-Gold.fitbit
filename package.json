@@ -1,0 +1,19 @@
+{
+  "fitbit": {
+    "appUUID": "c321aa5c-45cd-4470-bd9b-92e06958b4cd",
+    "appType": "clockface",
+    "appDisplayName": "Fields of Goild",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "",
+    "requestedPermissions": [],
+    "buildTargets": [
+      "meson",
+      "higgs"
+    ],
+    "i18n": {
+      "en": {
+        "name": "Fields of Goild"
+      }
+    }
+  }
+}
