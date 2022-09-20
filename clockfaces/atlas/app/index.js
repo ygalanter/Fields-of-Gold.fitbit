@@ -1,7 +1,7 @@
 // importing libraries
 import clock from "clock";
 import document from "document";
-import * as messaging from "messaging";
+import * as messaging from "../common/fitbit-file-messaging";
 import * as fs from "fs";
 import { me } from "appbit";
 import {preferences} from "user-settings";
@@ -24,7 +24,7 @@ function checkIncomingFile(){
   do {
     // If there is a file, move it from staging into the application folder
     fileName = inbox.nextFile();
-    if (fileName) {
+    if (fileName && fileName != 'messaging4d9b79c40abe.cbor') {
       console.log("/private/data/" + fileName + " is now available");
       
       //setting custom image
