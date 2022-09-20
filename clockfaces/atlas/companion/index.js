@@ -31,7 +31,7 @@ messaging.peerSocket.close = () => {
 settingsStorage.onchange = evt => {
   if (evt.key === "customimage") {
     let data = JSON.parse(evt.newValue);
-    console.log(data.imageUri)
+   
     if (data && data.imageUri) {
     
       readPNG(base64decode(data.imageUri.substring(22))).then(data => {
