@@ -1,0 +1,30 @@
+{
+  "fitbit": {
+    "appUUID": "c321aa5c-45cd-4470-bd9b-92e06958b4cd",
+    "appType": "clockface",
+    "appDisplayName": "Fields of Goild",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "",
+    "requestedPermissions": [],
+    "buildTargets": [
+      "atlas",
+      "vulcan",
+      "hera",
+      "rhea"
+    ],
+    "i18n": {
+      "en": {
+        "name": "Fields of Goild"
+      }
+    }
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "6.2.0-pre.0",
+    "@fitbit/sdk-build-targets": "file:fitbit-sdk-build-targets-1.6.0-pre.6.tgz",
+    "@fitbit/sdk-cli": "1.8.0-pre.2"
+  },
+  "scripts": {
+    "build": "fitbit-build",
+    "debug": "fitbit"
+  }
+}
