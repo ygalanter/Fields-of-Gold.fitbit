@@ -1,4 +1,4 @@
-import * as messaging from "../common/fitbit-file-messaging";
+import * as messaging from "fitbit-file-messaging";
 import { settingsStorage } from "settings";
 import { device } from "peer";
 import { outbox } from "file-transfer"

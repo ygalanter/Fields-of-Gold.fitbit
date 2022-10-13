@@ -1,7 +1,7 @@
 // importing libraries
 import clock from "clock";
 import document from "document";
-import * as messaging from "../common/fitbit-file-messaging";
+import * as messaging from "fitbit-file-messaging";
 import * as fs from "fs";
 import { me } from "appbit";
 import {preferences} from "user-settings";
